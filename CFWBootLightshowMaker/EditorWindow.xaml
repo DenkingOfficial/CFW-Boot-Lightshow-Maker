@@ -10,7 +10,7 @@
         <Grid Margin="1,1,1,1" Background="#ff191919"></Grid>
         <Grid x:Name="Top" Background="#ff101010" Margin="0,0,0,570" MouseDown="TopDrag">
             <DockPanel LastChildFill="True">
-                <Grid DockPanel.Dock="Right" x:Name="Close" Background="{x:Null}" MinWidth="30" MouseDown="CloseEvent">
+                <Grid DockPanel.Dock="Right" x:Name="Close" MinWidth="30" MouseDown="CloseEvent">
                     <TextBlock x:Name="Cross" VerticalAlignment="Center" FontFamily="Times New Roman" Foreground="#FF464646" FontSize="31" Margin="6,0,0,0" FontWeight="Bold">×</TextBlock>
                     <Grid.Triggers>
                         <EventTrigger RoutedEvent="Grid.MouseEnter">
@@ -35,7 +35,7 @@
                         </EventTrigger>
                     </Grid.Triggers>
                 </Grid>
-                <Grid DockPanel.Dock="Right" x:Name="Minimize" Background="{x:Null}" MinWidth="30" MouseDown="MinimizeEvent">
+                <Grid DockPanel.Dock="Right" x:Name="Minimize" MinWidth="30" MouseDown="MinimizeEvent">
                     <TextBlock x:Name="Dash" VerticalAlignment="Center" FontFamily="Times New Roman" Foreground="#FF464646" FontSize="31" Margin="7,0,5,5" FontWeight="Regular">‒</TextBlock>
                     <Grid.Triggers>
                         <EventTrigger RoutedEvent="Grid.MouseEnter">

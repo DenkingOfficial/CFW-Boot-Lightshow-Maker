@@ -10,7 +10,7 @@
         <Grid Background="#ff191919" Margin="1,1,1,1"></Grid>
         <Grid x:Name="Top" Background="#ff101010" Margin="0,0,0,390" MouseDown="TopDrag">
             <StackPanel Orientation="Horizontal" FlowDirection="RightToLeft">
-                <Grid x:Name="Close" Background="{x:Null}" MinWidth="30" MouseDown="CloseEvent">
+                <Grid x:Name="Close" MinWidth="30" MouseDown="CloseEvent">
                     <TextBlock x:Name="Cross" VerticalAlignment="Center" FontFamily="Times New Roman" Foreground="#FF464646" FontSize="31" Margin="6,0,0,0" FontWeight="Bold">×</TextBlock>
                     <Grid.Triggers>
                         <EventTrigger RoutedEvent="Grid.MouseEnter">
