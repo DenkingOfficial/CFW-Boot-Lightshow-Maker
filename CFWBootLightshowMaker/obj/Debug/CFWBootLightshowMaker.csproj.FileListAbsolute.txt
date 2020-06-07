@@ -1,0 +1,15 @@
+C:\Users\shers\Source\Repos\CFW-Boot-Lightshow-Maker\CFWBootLightshowMaker\bin\Debug\CFWBootLightshowMaker.exe.config
+C:\Users\shers\Source\Repos\CFW-Boot-Lightshow-Maker\CFWBootLightshowMaker\bin\Debug\CFWBootLightshowMaker.exe
+C:\Users\shers\Source\Repos\CFW-Boot-Lightshow-Maker\CFWBootLightshowMaker\bin\Debug\CFWBootLightshowMaker.pdb
+C:\Users\shers\Source\Repos\CFW-Boot-Lightshow-Maker\CFWBootLightshowMaker\obj\Debug\CFWBootLightshowMaker.csprojAssemblyReference.cache
+C:\Users\shers\Source\Repos\CFW-Boot-Lightshow-Maker\CFWBootLightshowMaker\obj\Debug\App.g.cs
+C:\Users\shers\Source\Repos\CFW-Boot-Lightshow-Maker\CFWBootLightshowMaker\obj\Debug\CFWBootLightshowMaker_MarkupCompile.cache
+C:\Users\shers\Source\Repos\CFW-Boot-Lightshow-Maker\CFWBootLightshowMaker\obj\Debug\CFWBootLightshowMaker_MarkupCompile.lref
+C:\Users\shers\Source\Repos\CFW-Boot-Lightshow-Maker\CFWBootLightshowMaker\obj\Debug\CFWBootLightshowMaker.g.resources
+C:\Users\shers\Source\Repos\CFW-Boot-Lightshow-Maker\CFWBootLightshowMaker\obj\Debug\CFWBootLightshowMaker.Properties.Resources.resources
+C:\Users\shers\Source\Repos\CFW-Boot-Lightshow-Maker\CFWBootLightshowMaker\obj\Debug\CFWBootLightshowMaker.csproj.GenerateResource.cache
+C:\Users\shers\Source\Repos\CFW-Boot-Lightshow-Maker\CFWBootLightshowMaker\obj\Debug\CFWBootLightshowMaker.csproj.CoreCompileInputs.cache
+C:\Users\shers\Source\Repos\CFW-Boot-Lightshow-Maker\CFWBootLightshowMaker\obj\Debug\CFWBootLightshowMaker.exe
+C:\Users\shers\Source\Repos\CFW-Boot-Lightshow-Maker\CFWBootLightshowMaker\obj\Debug\CFWBootLightshowMaker.pdb
+C:\Users\shers\Source\Repos\CFW-Boot-Lightshow-Maker\CFWBootLightshowMaker\obj\Debug\EditorWindow.g.cs
+C:\Users\shers\Source\Repos\CFW-Boot-Lightshow-Maker\CFWBootLightshowMaker\obj\Debug\EditorWindow.baml
