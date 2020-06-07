@@ -10,6 +10,5 @@ namespace CFWBootLightshowMaker
 {
     public partial class App : Application
     {
-        //Some Stuff
     }
 }
