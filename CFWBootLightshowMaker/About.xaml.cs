@@ -14,9 +14,6 @@ using System.Windows.Shapes;
 
 namespace CFWBootLightshowMaker
 {
-    /// <summary>
-    /// Логика взаимодействия для About.xaml
-    /// </summary>
     public partial class About : Window
     {
         public About()
