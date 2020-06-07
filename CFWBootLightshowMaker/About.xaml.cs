@@ -10,26 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace CFWBootLightshowMaker
 {
-    public partial class EditorWindow : Window
+    /// <summary>
+    /// Логика взаимодействия для About.xaml
+    /// </summary>
+    public partial class About : Window
     {
-        public static bool aboutShows=false;
-        public EditorWindow()
+        public About()
         {
             InitializeComponent();
         }
 
-        private void MinimizeEvent(object sender, MouseButtonEventArgs e)
-        {
-            this.WindowState = WindowState.Minimized;
-        }
-
         private void CloseEvent(object sender, MouseButtonEventArgs e)
         {
+            EditorWindow.aboutShows = false;
             GC.Collect();
             GC.WaitForPendingFinalizers();
             GC.Collect();
@@ -41,17 +38,6 @@ namespace CFWBootLightshowMaker
             if (e.ChangedButton == MouseButton.Left)
                 this.DragMove();
             e.Handled = true;
-        }
-
-        private void AboutEvent(object sender, MouseButtonEventArgs e)
-        {
-            if (aboutShows == false)
-            {
-                Window about = new About();
-                about.Show();
-                about.Topmost = true;
-                aboutShows = true;
-            }
         }
     }
 }

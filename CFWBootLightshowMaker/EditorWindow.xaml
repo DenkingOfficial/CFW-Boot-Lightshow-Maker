@@ -1,12 +1,13 @@
-﻿<Window x:Class="CFWBootLightshowMaker.MainWindow"
+﻿<Window x:Class="CFWBootLightshowMaker.EditorWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CFWBootLightshowMaker"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="900" WindowStyle="None" ResizeMode="NoResize">
-    <Grid Background="#ff191919">
+        Title="EditorWindow" Height="600" Width="900" WindowStyle="None" ResizeMode="NoResize">
+    <Grid Background="#FF151515">
+        <Grid Margin="1,1,1,1" Background="#ff191919"></Grid>
         <Grid x:Name="Top" Background="#ff101010" Margin="0,0,0,570" MouseDown="TopDrag">
             <DockPanel LastChildFill="True">
                 <Grid DockPanel.Dock="Right" x:Name="Close" Background="{x:Null}" MinWidth="30" MouseDown="CloseEvent">
@@ -16,9 +17,9 @@
                             <BeginStoryboard>
                                 <Storyboard>
                                     <ColorAnimation To="#ff646464"
-                                                    Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)" Storyboard.TargetName="Cross"
-                                                    FillBehavior="HoldEnd"
-                                                    Duration="0:0:0.1"/>
+                                                        Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)" Storyboard.TargetName="Cross"
+                                                        FillBehavior="HoldEnd"
+                                                        Duration="0:0:0.1"/>
                                 </Storyboard>
                             </BeginStoryboard>
                         </EventTrigger>
@@ -26,9 +27,9 @@
                             <BeginStoryboard>
                                 <Storyboard>
                                     <ColorAnimation To="#FF464646"
-                                                    Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)" Storyboard.TargetName="Cross"
-                                                    FillBehavior="HoldEnd"
-                                                    Duration="0:0:0.1"/>
+                                                        Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)" Storyboard.TargetName="Cross"
+                                                        FillBehavior="HoldEnd"
+                                                        Duration="0:0:0.1"/>
                                 </Storyboard>
                             </BeginStoryboard>
                         </EventTrigger>
@@ -41,9 +42,9 @@
                             <BeginStoryboard>
                                 <Storyboard>
                                     <ColorAnimation To="#ff646464"
-                                                    Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)" Storyboard.TargetName="Dash"
-                                                    FillBehavior="HoldEnd"
-                                                    Duration="0:0:0.1"/>
+                                                        Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)" Storyboard.TargetName="Dash"
+                                                        FillBehavior="HoldEnd"
+                                                        Duration="0:0:0.1"/>
                                 </Storyboard>
                             </BeginStoryboard>
                         </EventTrigger>
@@ -51,9 +52,9 @@
                             <BeginStoryboard>
                                 <Storyboard>
                                     <ColorAnimation To="#FF464646"
-                                                    Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)" Storyboard.TargetName="Dash"
-                                                    FillBehavior="HoldEnd"
-                                                    Duration="0:0:0.1"/>
+                                                        Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)" Storyboard.TargetName="Dash"
+                                                        FillBehavior="HoldEnd"
+                                                        Duration="0:0:0.1"/>
                                 </Storyboard>
                             </BeginStoryboard>
                         </EventTrigger>
@@ -66,9 +67,9 @@
                             <BeginStoryboard>
                                 <Storyboard>
                                     <ColorAnimation To="#ff646464"
-                                                    Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)" Storyboard.TargetName="Info"
-                                                    FillBehavior="HoldEnd"
-                                                    Duration="0:0:0.1"/>
+                                                        Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)" Storyboard.TargetName="Info"
+                                                        FillBehavior="HoldEnd"
+                                                        Duration="0:0:0.1"/>
                                 </Storyboard>
                             </BeginStoryboard>
                         </EventTrigger>
@@ -76,9 +77,9 @@
                             <BeginStoryboard>
                                 <Storyboard>
                                     <ColorAnimation To="#FF464646"
-                                                    Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)" Storyboard.TargetName="Info"
-                                                    FillBehavior="HoldEnd"
-                                                    Duration="0:0:0.1"/>
+                                                        Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)" Storyboard.TargetName="Info"
+                                                        FillBehavior="HoldEnd"
+                                                        Duration="0:0:0.1"/>
                                 </Storyboard>
                             </BeginStoryboard>
                         </EventTrigger>
